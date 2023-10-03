@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 375px;
     margin: 50px 20px;
     padding: 20px;
     background-color: var(--white);
@@ -24,8 +25,7 @@ body {
 }
 
 .card__image {
-    display: flex;
-    width: 80vw;
+    max-width: 100%;
     border-radius: 15px;
 }
 
